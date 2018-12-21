@@ -30,8 +30,7 @@ public class MappingPoints2 : MonoBehaviour
 		MapPointsUsingRayCast(OriginZero, 10, 180, 10);
 		//RenderPointsIntoQuads(PointstoRender);
 	}
-
-
+	
 	void MapPointsUsingRayCast(Vector3 VZero, int rounds = 1, int range = 360, int accuarcy = 1)
 	{
 		Vector3 RayDir;
